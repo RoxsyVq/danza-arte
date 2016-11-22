@@ -2,6 +2,7 @@
 *{
 
   font-family: 'Montserrat',monospace;
+  
 }
 header{
   text-align: center;
@@ -53,7 +54,7 @@ margin: 0;
   display: inline-block;
   position: relative;
 top:-107px;
-background: #222554;
+background: rgb(26, 41, 82);
 color: #fff;
 padding: 25px 20px;
 }
@@ -71,7 +72,7 @@ margin-top: 30px;
   height: 120px;
 }
 .contenido button{
-background: #251078;
+background: rgb(26, 41, 82);
 color: #fff;
 border:none;
 padding: 15px 80px;
@@ -111,6 +112,9 @@ margin-bottom: 30px;
 .left-inner-addon input {
     padding-left: 30px;
 }
+.left-inner-addon textarea[type="mensaje"]{
+    padding-left: 30px;
+  }
 .left-inner-addon i {
     position: absolute;
     padding: 10px 12px;
@@ -137,3 +141,8 @@ margin-bottom: 30px;
       width: 500px;
       margin: 10px 1px;
   }
+footer {
+  background: rgb(26, 41, 82);
+  padding: 20px 1px 1px 10px;
+  color:#fff;
+}

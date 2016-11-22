@@ -4,46 +4,108 @@
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/blog.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
+<!--.......................................................................................HEADER-->
 	<header>
-     <section class="hero">
-      <div class="container">
-           <div class="principal">
-            <div class="row">
-             <div class="col-md-3">
-               <h1>ESCUELA DE DANZA</h1>
-                 <ul>
-                     <li>NOSOTROS</li>
-                     <li>CLASES</li>
-                     <li>BLOG</li>
-                     <li>CONTACTENOS</li>
-                 </ul>
-                  </div>
-                 </div>
-              </div>
-          </div>
-      </section>
-  </header>
-  <!-----------------------------------final----------header---------------------->
-  <section class="relleno">
-     <div class="container">
-    <div class="col-md-4">
-               <h2>BLOG</h2>
-               <ul>
-               <img src="img/blog1.jpg" alt=""><div class="ro"> </div>
-               <img src="img/profesor_5.jpg" alt=""><div class="ro"> </div>
-               <img src="img/instructor_1.jpg" alt=""><div class="ro"> </div>
-             </ul>
-                
-          </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1>ESCUELA DE DANZA</h1>
+            </div>
         </div>
-       </section>
-	
+        <div class="row">
+            <ul>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="clases.html">Clases</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#contact">Contáctanos</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!--.....................................................................................BLOG TITLE-->
+<section>
+		<h3><strong>BLOG</strong></h3>
+	<div class="fondo">
+	<div class="row">
+		<div class="col-md-4 blog1"></div>
+		<div class="col-md-8"><p class="titulo"><strong>TÍTULO DEL ARTÍCULO</strong></p><p class="date">Fecha</p>
+		<span>Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.</span><br><span>Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.</span><br>
+		<button type="button">Ver más</button></div>
+	</div>
+	</div>
+
+	<div class="fondo">
+	<div class="row">
+		<div class="col-md-4 blog2"></div>
+		<div class="col-md-8"><p class="titulo"><strong>TÍTULO DEL ARTÍCULO</strong></p><p class="date">Fecha</p>
+		<span>Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.</span><br><span>Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.</span><br>
+		<button type="button">Ver más</button></div>
+	</div>
+	</div>
+
+	<div class="fondo">
+	<div class="row">
+		<div class="col-md-4 blog3"></div>
+		<div class="col-md-8"><p class="titulo"><strong>TÍTULO DEL ARTÍCULO</strong></p><p class="date">Fecha</p>
+		<span>Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.</span><br><span>Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.</span><br>
+		<button type="button">Ver más</button></div>
+	</div>
+	</div>
+
+</section>
+<section class="contacto">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 ">
+			<form action="formulario" >
+
+
+				<h3>Contactanos</h3>
+<div class="left-inner-addon ">
+    <i class="glyphicon glyphicon-user"></i>
+    <input type=user
+           class="form-control"
+           placeholder="Nombre" />
+</div>
+<br>
+<div class="left-inner-addon ">
+    <i class="glyphicon glyphicon-envelope"></i>
+    <input type="email"
+           class="form-control"
+           placeholder="E-mail" />
+</div>
+<br>
+<div class="left-inner-addon ">
+    <i class="glyphicon glyphicon-pencil"></i>
+    <textarea type="mensaje" rows="4" cols="50"
+           class="form-control"
+           placeholder="Mensaje"></textarea>
+					<button type="button" name="button">Enviar</button>
+</div>
+</form>
+			</div>
+		</div>
+	</div>
+</section><!--.........................................................................................FOOTER-->
+<footer>
+	 <div class="container">
+        <small>©Escuela de danza. Todos los derechos reservados.</small>
+    </div>
+</footer>
+
+</body>
+</html>
+	</section>
+
+
+
 </body>
 </html>
