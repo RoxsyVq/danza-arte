@@ -1,1 +1,46 @@
-/* Inserta tu codigo aqui */
+/* Inserte su codigo aqui */
+
+*{
+    outline: 2px solid 	#00FFFF ; 
+}
+header ul li {
+    display: inline-block;
+    position: relative;
+    margin-left:60px;
+    left:300px;
+    top: 30px;
+    font-size: 15px;
+    color:cornflowerblue;
+}
+ul img{
+    width: 255px;
+    height: 225px;
+    margin-left: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+h1{
+    margin-left: 500PX;
+    color:darkblue;
+    font-size: 20px;
+    width: 200px;
+}
+h2{
+    margin-left: 500PX;
+    font-size: 20px;
+    margin-top: 80px;
+    width: 200px;
+}
+.col-md-4{
+   background:rgba(192,192,192,0.2);
+    padding-bottom: 30px;
+}
+.ro{
+background:rgba(192,192,192,0.4);
+    width: 730px;
+    position: relative;
+    display: inline-block;
+    height: 225px;
+   }
+
