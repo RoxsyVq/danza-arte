@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
 
   font-family: 'Montserrat',monospace;
@@ -64,18 +64,55 @@ margin: 0px 0px;
   height: 200px;
 }
 /*---------------------------------------------contacto*/
-.searche-box input{
-  padding: 4px;
+.contacto{
+  background: url(../img/shoes_!.jpg) no-repeat;
+  height: 480px;
+  background-size: 60%;
+  padding: 0;
+  margin:0;
+  background-position: right;
 
 }
-.searche-box .glyphicon-user{
-  margin-left: -230px;
-  width: 40px;
-  height: 20px;
+
+.contacto form{
+  width: 500px;
+  margin-top: 40px;
+  margin-left: 30px;
 }
-.searche-box  input[type="user"],input[type="email"]{
-  padding: 1px 30px;
+.contacto form h3{
+margin-bottom: 30px;
+  font-size: 30px;
 }
-=======
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.right-inner-addon {
+    position: relative;
+
+}
+.right-inner-addon input {
+    padding-right: 30px;
+    }
+
+.right-inner-addon i {
+    position: absolute;
+  }
+  .contacto button{
+      padding: 20px 1px;
+      background: rgb(26, 41, 82);
+      color:#fff;
+      border-radius: 5px;
+      border: none;
+      width: 500px;
+      margin: 10px 1px;
+  }
 /* Inserta tu codigo aqui */
->>>>>>> 9005898ba7432f86a04a4bf9171dccfa2ae0a8f9
