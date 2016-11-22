@@ -1,1 +1,81 @@
+<<<<<<< HEAD
+*{
+
+  font-family: 'Montserrat',monospace;
+}
+header{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header ul li{
+  list-style: none;
+
+}
+
+/*.---------------------------------------hero*/
+.hero{
+  background:200% url(../img/dance_7.jpg);
+  color:#fff;
+  background-size: 100%;
+height: 400px;
+margin: 0px 0px;
+}
+.hero .studio{
+  font-size: 20px;
+}
+.hero .texto{
+  margin-top: 85px;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.4);
+  padding: 20px 10px;
+
+}
+
+/*.....................................................pilares*/
+.pilares {
+  background: url(../img/cubes.png);
+  padding: 80px 30px;
+  text-align: center;
+  color: rgba(0,0,0,0.4)
+
+}
+.pilares hr{
+  width: 300px;
+  border-color: rgba(0,0,0,0.4);
+}
+/*---------------------------------------------------instructores*/
+.instructores{
+  text-align: center;
+  padding: 30px 3px;
+}
+.instructores img{
+  width:90%;
+  height: 180px;
+}
+.instructores p{
+  text-align: left;
+}
+
+
+/*-----------------------------------------------frase*/
+.frase{
+  background: url(../img/cubes.png);
+  height: 200px;
+}
+/*---------------------------------------------contacto*/
+.searche-box input{
+  padding: 4px;
+
+}
+.searche-box .glyphicon-user{
+  margin-left: -230px;
+  width: 40px;
+  height: 20px;
+}
+.searche-box  input[type="user"],input[type="email"]{
+  padding: 1px 30px;
+}
+=======
 /* Inserta tu codigo aqui */
+>>>>>>> 9005898ba7432f86a04a4bf9171dccfa2ae0a8f9
