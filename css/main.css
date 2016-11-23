@@ -1,18 +1,4 @@
 
-*{
-
-  font-family: 'Montserrat',monospace;
-  
-}
-header{
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-header ul li{
-  list-style: none;
-
-}
 
 /*.---------------------------------------hero*/
 .hero{
@@ -87,62 +73,3 @@ padding: 50px 10px;
 margin: 30px 1px;
 }
 /*-------------------------------------------contacto*/
-.contacto{
-  background: url(../img/shoes_!.jpg) no-repeat;
-  height: 480px;
-  background-size: 60%;
-  padding: 0;
-  margin:0;
-  background-position: right;
-
-}
-
-.contacto form{
-  width: 500px;
-  margin-top: 40px;
-  margin-left: 30px;
-}
-.contacto form h3{
-margin-bottom: 30px;
-  font-size: 30px;
-}
-.left-inner-addon {
-    position: relative;
-}
-.left-inner-addon input {
-    padding-left: 30px;
-}
-.left-inner-addon textarea[type="mensaje"]{
-    padding-left: 30px;
-  }
-.left-inner-addon i {
-    position: absolute;
-    padding: 10px 12px;
-    pointer-events: none;
-}
-
-.right-inner-addon {
-    position: relative;
-
-}
-.right-inner-addon input {
-    padding-right: 30px;
-    }
-
-.right-inner-addon i {
-    position: absolute;
-  }
-  .contacto button{
-      padding: 20px 1px;
-      background: rgb(26, 41, 82);
-      color:#fff;
-      border-radius: 5px;
-      border: none;
-      width: 500px;
-      margin: 10px 1px;
-  }
-footer {
-  background: rgb(26, 41, 82);
-  padding: 20px 1px 1px 10px;
-  color:#fff;
-}
